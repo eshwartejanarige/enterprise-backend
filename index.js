@@ -1,10 +1,9 @@
 //closures
 function closure(){
-    var a=0;
-    var b=1;
+    var z=0;
     return function deposit(){
-        console.log("Balance :"+a+b);
+        console.log("Balance :"+z);
     }
 }
 var Balance=closure();
- Balance();
+ Balance.deposit;
