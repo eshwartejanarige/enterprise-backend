@@ -1,8 +1,8 @@
 //closures
 function closure(){
-    var a=0;
+    var b=0;
     return function deposit(){
-        console.log("Balance :"+a);
+        console.log("Balance :"+b);
     }
 }
 var Balance=closure();
