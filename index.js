@@ -1,11 +1,11 @@
 //closures
 function closure(){
-    var v=0;
+    var a=0;
     var b=1;
     var gst=0.5
     var change="everyting"
     return function deposit(){
-        console.log("Balance :"+a+b+0.5);
+        console.log("Balance :"+v+b+0.5);
     }
 }
 function c(){
